@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    font-size: 62.5%;
+}
+h1{
+    font-size: 2.4rem;
+    font-family: "Montserrat", sans-serif;
+}
+body,
+.screen1 {
+  font-family: 'DM Sans', sans-serif;
+}
+body{
+    background: linear-gradient(287.56deg,#190361 0%, #BB00FF 100%);
+    font-size: 1.6rem;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+main{
+    color: #34355B;
+    background: #ffffff;
+  box-shadow: 0px 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.6rem;
+  padding: 4.8rem 6.4rem 6.4rem;
+  width: min(42.8rem, 90%);
+  margin-top: -12rem;
+  text-align: center;
+}
+.shake{
+    margin-top: 2.5rem;
+    border: none;
+    background: transparent;
+}
+@keyframes shake {
+    0% { transform: translatey(0); }
+    25% { transform: translatex(-5px); }
+    50% { transform: translatey(5px); }
+    75% { transform: translatex(-5px); }
+    100% { transform: translatey(0); }
+  } 
+.shake {
+    border: none;
+    transition: transform 0.2s ease-in-out; 
+}
+  .shake:hover {
+    animation: shake 0.5s ease-in-out infinite;  
+}
+  .hide {
+        display: none;
+}
+.voltar{
+    border: none;
+    border-radius: .8rem;
+    padding: 1.5rem;
+    color: white;
+    background: #FF9500;
+}
+.luck{
+    font-weight: normal;
+    font-size: 2.4rem ;
+    font-family: "Dancing Script", sans-serif;
+    padding: 2rem;
+    background: #E4EDF1;
+}
+.voltar:hover{
+    transition: 0.5s;
+    background-color: #aa6505;
+}
+.biscoito{
+    margin: 2rem;
+}
